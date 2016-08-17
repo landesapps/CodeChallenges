@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class IntegerParsing {
 
     public static void main(String[] args) {
-	// TODO Auto-generated method stub
 	Scanner scan = new Scanner(System.in);
 	
 	if (scan.hasNextLine()) {
@@ -18,6 +17,12 @@ public class IntegerParsing {
 	scan.close();
     }
     
+    /**
+     * Parse through each character, since we don't want to use the language library
+     * 
+     * @param input
+     * @return int
+     */
     public static int parsedInts(String input) {
 	int total = 0;
 	    for (int iter = 0; iter < input.length(); iter++) {
