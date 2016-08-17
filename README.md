@@ -1,4 +1,4 @@
-Code Challenge Problem #1
+**Code Challenge Problem #1**
 
 To kick off the STG code challenge we are going to start with an easier String parsing problem.
 
